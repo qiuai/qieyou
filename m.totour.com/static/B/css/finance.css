@@ -1,0 +1,33 @@
+.finance-wrap{color:#c7c7c7;font-size:0.8rem;}
+.finance-wrap .dark-bg{background-color:#383838;}
+.finance-total{height:4.6rem;line-height:4.6rem;padding:0 1.5rem;font-size:0.9rem;}
+.finance-total .label{vertical-align:middle;}
+.finance-total .price{color:#f04e51;font-size:1.5rem;vertical-align:middle;}
+.finance-total .ext-btn{float:right;width:7.5rem;height:2.1rem;margin-top:1.3rem;color:#fff;font-size:1.2rem;font-weight:normal;text-align:center;background-color:#ff5d5d;border:none;border-radius:1rem;}
+.finance-stati{display:-webkit-box;display:-moz-box;display:box;height:3.75rem;line-height:1.2rem;}
+.finance-stati .stati-item{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;height:100%;text-align:center;}
+.finance-stati .label{padding-top:0.675rem;font-size:0.8rem;}
+.finance-stati .num{color:#f04e51;font-size:1.05rem;}
+.finance-name{height:2.65rem;line-height:2.65rem;padding:0 1.5rem;font-size:0.9rem;}
+.finance-list{}
+.finance-list .month{height:3rem;line-height:3rem;padding:0 1.5rem;}
+.finance-list .month .date-lg{font-size:1.2rem;}
+.finance-list .month .date-sm{font-size:0.6rem;vertical-align:bottom;}
+.finance-list i.flow{display:inline-block;width:0.725rem;height:0.725rem;color:#c7c7c7;font-size:0.5rem;text-align:center;font-style:normal;border:0.05rem;border-style:solid;border-radius:100%;vertical-align:middle;}
+.finance-list i.flow.checkin{border-color:#f04e51;}
+.finance-list i.flow.checkout{border-color:#6ab400;}
+.finance-list .checkin{color:#f04e51;}
+.finance-list .checkout{color:#6ab400;}
+.finance-list .month .flow{display:inline-block;height:0.725rem;line-height:0.725rem;}
+.finance-list .month .flow em{font-style:normal;vertical-align:middle;}
+.finance-list .month .flow .checkin{margin-left:1.1rem;color:#f04e51;}
+.finance-list .month .flow .checkin i{border-color:#f04e51;}
+.finance-list .month .flow .checkout{margin-left:1.1rem;color:#6ab400;}
+.finance-list .month .flow .checkout i{border-color:#6ab400;}
+.finance-list .days{padding-left:3.6rem;border-bottom:0.45rem solid #383838;}
+.finance-list .day{width:100%;}
+.finance-list .day td{height:3.2rem;overflow:hidden;}
+.finance-list .day .clock{width:0.8rem;height:0.8rem;vertical-align:middle;}
+.finance-list .day .text{vertical-align:middle;}
+.finance-list .month,.finance-list .day td{border-bottom:0.05rem solid #3e3e3e;}
+.finance-list .day tr:last-child td{border-bottom:none;}

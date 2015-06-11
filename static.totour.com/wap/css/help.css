@@ -1,0 +1,24 @@
+﻿/*about*/
+.about-cod,.about-con{ background:#fff; padding:1rem; margin-bottom:0.8rem; text-align:center}
+.about-cod img{ width:8.2rem}
+.about-cod a{ display:block; margin:1rem auto 0 auto; line-height:3rem; border:1px solid #e5e5e5; border-radius:1.5rem; -moz-border-radius:1.5rem;-khtml-border-radius:1.5rem;-webkit-border-radius:1.5rem;width:19rem; color:#4c4c4c }
+.about-cod a img{ width:1.5rem;vertical-align:middle; margin-right:0.3rem;margin-top:-0.3rem;}
+.about-con{text-align:left}
+.about-con .tit{border-bottom:1px solid #e5e5e5; padding:0.5rem 0; font-size:1.4rem }
+.about-con .tit span{border-left:0.2rem solid #61bb31;line-height:1rem; padding-left:0.5rem }
+.about-con article{ color:#4c4c4c; margin:0.5rem 0 1rem 0}
+.about-con article p{ margin-bottom:0.5rem}
+span.rline{border-left:0.2rem solid #ff7373 !important}
+span.oline{border-left:0.2rem solid #feb040!important}
+
+/*jifen*/
+.qanda{ background:#fff; margin-bottom:0.8rem; padding:1rem }
+.qanda dl dt{ border-bottom:1px solid #e5e5e5; font-size:1.4rem; padding-bottom:0.5rem; margin-bottom:0.5rem}
+.qanda font{ color:#61bb31; width:5%; display:inline-block;}
+.qanda i{ background:#61bb31; width:0.5rem; height:0.5rem; border-radius:50%; -moz-border-radius:50%;-khtml-border-radius:50%;-webkit-border-radius:50%; display:inline-block; vertical-align:middle;margin:-0.2rem 0.3rem 0 0}
+.qanda span{display:inline-block; width:94%; vertical-align:top}
+.qtable{margin-top:0.5rem; line-height:3rem}
+.qtable table{margin-bottom:0.8rem}
+.qtable table th{ background:#dbdbdb;}
+.qtable td{font-size:1rem}
+.qtable .green{ font-size:1.3rem}

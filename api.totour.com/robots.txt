@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+
+
+User-agent: MJ12bot
+Disallow: /
+User-agent: twiceler
+Disallow: /
+User-agent: Slurp
+Disallow: /

@@ -1,0 +1,1 @@
+<?php if($dbInfo){ foreach($dbInfo as $query){ echo '<p>'.$query.'</p>';}};?>

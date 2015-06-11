@@ -1,0 +1,37 @@
+/*社区个人中心*/
+.tour-list{ background:#fff; margin-top:1rem; padding:1rem}
+.tour-list .left{width:26%; float:left; height:6rem; overflow:hidden; }
+.tour-list .left img{width:6rem; height:auto;}
+.tour-list .right{width:74%; float:right;}
+.tour-list .right dl dt{width:100%; height:1.5rem; font-size:1.16rem; margin-bottom:0.5rem; line-height:1.5rem; overflow:hidden; white-space:nowrap; color:#333; text-overflow:ellipsis;}
+.tour-list .right dl dd{height:4rem; line-height:1.4rem; width:100%;overflow:hidden; color:#333; }
+.tour-list .pos{clear:both; border-bottom:1px solid #e5e5e5; text-align:right; color:#939393; font-size:0.8rem; margin-top:0.8rem; padding-bottom:0.6rem}
+.tour-list .pos span{ margin-right:1rem}
+.tour-list .pos img{width:0.65rem; margin-right:0.3rem}
+.tour-list .info{margin-top:0.5rem;box-sizing:border-box; }
+.tour-list .info ul li{ width:25%; text-align:center; box-sizing:border-box; float:left; color:#939393}
+.tour-list .info ul li img{width:1.3rem; vertical-align:middle; margin-right:0.3rem}
+.pointcon{ background:#fff; margin-top:1rem; padding:1rem}
+
+
+.mess-y{margin:1rem 1rem 0 1rem; font-size:1rem;background:#f8f8f8; border-radius:0.5rem;-moz-border-radius:0.5rem;-khtml-border-radius:0.5rem;-webkit-border-radius:0.5rem;padding:0.5rem 1rem; position:relative; line-height:2rem}
+.mess-y .mtext{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.mess-b{ text-align:right; margin:0.5rem 1rem; position:relative}
+.mess-b img{width:1.9rem; vertical-align:middle; margin-right:0.3rem}
+.mess-b a{ display:inline-block; width:3rem; }
+.mess-info{ display:block; width:11rem; height:2.5rem; border-radius:0.3rem;-moz-border-radius:0.3rem;-khtml-border-radius:0.35rem;-webkit-border-radius:0.3rem; position:absolute; background:rgba(76,76,76,0.9) !important;background:#4c4c4c; filter:Alpha(opacity=90); top:-0.3rem; right:5.5rem;}
+.mess-info.slideRight,.mess-info.slideLeft{-webkit-transform-origin:100% 0;-moz-transform-origin:100% 0;-o-transform-origin:100% 0;transform-origin:100% 0;}
+.mess-info.slideRight{-webkit-animation:slideRight 0.5s ease;-moz-animation:slideRight 0.5s ease;-o-animation:slideRight 0.5s ease;animation:slideRight 0.5s ease;}
+.mess-info.slideLeft{-webkit-animation:slideLeft 0.5s ease;-moz-animation:slideLeft 0.5s ease;-o-animation:slideLeft 0.5s ease;animation:slideLeft 0.5s ease;}
+.mess-info a{width:49%; display:inline-block; border-right:1px solid #fff; color:#fff !important; text-align:center; font-size:1rem; line-height:1.5rem; margin-top:0.5rem; height:1.5rem}
+.mess-list{ background:#fff; padding-top:1rem; margin-bottom:0.8rem}
+.mess-list dl{ margin:0 1rem; line-height:2rem }
+.mess-list dl dt span{line-height:1.5rem; color:#939393; font-size:1rem}
+.mess-list dl dt img{ width:1.3rem; margin-right:0.3rem; vertical-align:middle}
+.mess-del{line-height:2.5rem; text-align:right;}
+.mess-del a{padding:0rem 1.5rem 0 3rem;}
+.mess-del img{width:1rem}
+.scon-list .list-con2 dl dd{width:100%;margin-bottom:0.3rem;}
+.margin-b{margin-bottom:0.2rem}
+
+

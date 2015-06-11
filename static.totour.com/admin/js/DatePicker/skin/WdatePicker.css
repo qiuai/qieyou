@@ -1,0 +1,15 @@
+.Wdate{
+    width: 100px;
+    height: 18px;
+    line-height: 17px;
+    border:1px solid #ddd;
+    border-radius: 3px 3px 3px 3px;
+    padding:5px 6px;
+    background:#fdfdfd url(../../../images/date.png) no-repeat 88px 6px !important;
+}
+.Wdate::-ms-clear{display:none;}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}

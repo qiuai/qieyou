@@ -1,0 +1,132 @@
+.cus-list .top{ background:#2a2a2a; line-height:2rem; width:100%;box-sizing:border-box; padding-left:1rem}
+.cus-list .top ul li,.cus-list .list ul li{width:24.5%; display:inline-block; color:#c7c7c7 !important; text-decoration:none}
+.cus-list .top ul .xf,.cus-list .list ul .xf{width:19.5%}
+.cus-list .top ul .bz,.cus-list .list ul .bz{width:30%}
+.cus-list .tit{ background:#383838; height:1.2rem; line-height:1.2rem; padding-left:1rem; font-size:0.6rem }
+.cus-list .list{line-height:3rem; padding-left:1rem;width:100%;box-sizing:border-box;}
+.cus-list .list ul{height:3rem; overflow:hidden}
+.cus-list .list ul a{ display:block}
+.cus-list .list ul{border-bottom:1px solid #3e3e3e;  }
+.cus-list .list ul:last-child{border:0}
+.l-list.cur .tit{position:fixed;top:2.8rem;left:0;width:100%;}
+.letter{ position:fixed; width:3rem; top:6.2rem; right:0; z-index:9999; font-size:0.7rem}
+.letter img{ width:0.8rem}
+.letter a{ display:block; line-height:1.05rem; height:1.05rem; text-align:center}
+
+.cus-layer{position:fixed;top:50%;left:50%;margin-top:-10rem;margin-left:-12.5rem; background:#151515; border-radius:0.3rem; width:25rem; height:20rem; overflow:hidden; z-index:9999}
+.cus-layer.zoomIn{-webkit-animation:zoomIn 0.3s ease-in;animation:zoomIn 0.5s ease-in;}
+.cus-layer.zoomOut{-webkit-animation:zoomOut 0.3s ease-in;animation:zoomOut 0.5s ease-in;}
+.cus-layer .ctit{ line-height:2.5rem; height:2.5rem; background:#262626; text-align:center;margin-bottom:1rem}
+.cus-layer .ccon{ padding:0 1rem}
+.cus-layer .ccon div{margin-bottom:0.5rem}
+.cus-layer .ccon textarea{width:100%; height:11rem; background:#f8f8f8; border:0;border-radius:0.3rem; font-size:0.8rem}
+.redbtn{ background:#ff5d5d; border:0; width:100%; height:3rem; line-height:3rem; text-align:center; color:#fff; font-size:1rem;border-radius:0.3rem;outline: none;-webkit-appearance: none;appearance: none;}
+
+.order{ position:relative}
+.order .sidenav{ background:#3c3c3c; position:fixed; width:12rem; height:100%; top:2.8rem; left:0; z-index:1}
+.order .sidenav ul li{height:3rem; line-height:3rem; text-indent:1rem; font-size:0.9rem}
+.order .sidenav ul .now{ background:#6ab400; color:#fff}
+.order .sidenav ul li a{ display:block}
+.order .order-list{ position:absolute; top:0; left:0; width:100%; padding-left:12rem; box-sizing:border-box;}
+.order .order-list .list-con{  background:#3a3a3a; margin:0.5rem; margin-bottom:0; box-sizing:border-box; padding:0.8rem 1rem}
+.order .order-list .l-pro{ position:relative; width:100%;border-bottom:1px solid #4f4f4f; height:8rem;}
+.order .order-list .l-pro .pic{ position:absolute; top:0.8rem; left:0; width:9rem; height:6.2rem; overflow:hidden; }
+.order .order-list .l-pro .pic img{ height:100%; width:auto}
+.order .order-list .l-pro .text{ position:absolute; width:100%; left:0; top:0.8rem; padding-left:9.8rem; box-sizing:border-box; line-height:2rem}
+.order .order-list .l-pro .text dl dt{ font-size:1rem !important}
+.order .order-list .l-pro .text dl dd font,.order .order-list .l-operate font{ font-size:1.2rem; margin-right:0.3rem}
+.order .order-list .l-operate{padding-top:0.8rem;font-size:1rem;}
+.order .order-list .l-operate span{font-size:0.8rem}
+.order .order-list .l-operate a{margin-left:1rem}
+.orderdeta{ background:#2d2e32; width:20rem; position:fixed; top:0; right:0; height:100%; z-index:99998; padding:0 1rem 3.9rem;overflow-y:scroll; box-sizing:border-box;-webkit-transform-origin:right center;transform-origin:right center;}
+.orderdeta.slideLeft{-webkit-animation:slideLeft 0.3s ease-in;animation:slideLeft 0.3s ease-in;}
+.orderdeta.slideRight{-webkit-animation:slideRight 0.3s ease-in;animation:slideRight 0.3s ease-in;}
+.orderdeta .tit{border-bottom:1px solid #444548; line-height:2.5rem; text-align:center}
+.orderdeta .zt{border-bottom:1px solid #444548;line-height:1.5rem;}
+.orderdeta .zt ul{margin:0.5rem 0}
+.orderdeta .zt ul li{height:1.5rem; line-height:1.5rem;}
+.orderdeta .zt ul li font{ font-size:1.4rem}
+.orderdeta .info,.orderdeta .pro{border-bottom:1px solid #444548; padding:0.5rem 0}
+.orderdeta .info .itit{margin-bottom:0.2rem}
+.orderdeta .info dl,.orderdeta .pro dl{ position:relative; height:1.5rem; line-height:1.5rem}
+.orderdeta .info dl dt,.orderdeta .pro dl dt{ position:absolute; top:0; left:0; width:5.1rem;overflow:hidden;}
+.orderdeta .info dl dd,.orderdeta .pro dl dd{ position:absolute; top:0; left:0; width:100%; padding-left:5.5rem; box-sizing:border-box; width:100%; }
+.orderdeta .info dl dd.r,.orderdeta .pro dl dd.r{left:auto;right:0;width:auto;}
+.orderdeta .info dl.tb,.orderdeta .pro dl.tb{border-top:0.05rem solid #444548;}
+.orderdeta .pro{padding-bottom:0.8rem}
+.orderdeta .pro .ptit{margin-bottom:0.5rem}
+.orderdeta .pro dl{height:3.5rem; }
+.orderdeta .pro dl dt{height:3.5rem;overflow:hidden}
+.orderdeta .pro dl dt img{ height:100%; width:auto}
+.orderdeta .pro dl dd{ line-height:1.2rem}
+.orderdeta .pro dl dd font{font-size:0.9rem; margin-right:0.3rem}
+.orderdeta .inner{border-bottom:1px solid #444548;padding:0.5rem 0}
+.orderdeta .inner dl{ position:relative; height:4.2rem}
+.orderdeta .inner dl dt{ position:absolute; top:0; left:0; width:3rem; height:3rem; border-radius:50%; overflow:hidden}
+.orderdeta .inner dl dt img{width:100%; height:100%}
+.orderdeta .inner dl dd{ position:absolute; top:0; left:0; padding-left:3.5rem; width:100%; box-sizing:border-box; line-height:1.5rem}
+
+
+
+header .profl{width:6%; float:left;}
+header .profl a{ display:block}
+header .profr{width:10%; float:right}
+header .profm{width:80%; float:left;}
+header .profm a{padding:0 1.2rem; }
+header .profm a .hot{background:#ff6000;padding:0 0.2rem; line-height:0.5rem;  border-radius:1rem;font-size:0.4rem !important; color:#fff; display:inline-block;}
+header .profr a{padding:0.2rem 0.8rem; background:#6ab400; border-radius:2rem; text-align:right}
+.pro-operate{ background:#212121; line-height:2rem; padding:0 1rem; position:fixed; height:2rem; width:100%; box-sizing:border-box; z-index:99}
+.pro-operate .left img{width:0.5rem; margin-left:0.3rem}
+.screen{ position:absolute; top:1.5rem; left:0; width:17rem; height:12rem}
+.screen .arrow{width: 0; height: 0; margin-left:1.5rem; border-left: 0.3rem solid transparent;border-bottom: 0.3rem solid #3a3a3a;border-right: 0.3rem solid transparent;font-size: 0;line-height: 0;}
+.screen .scon{width:17rem;height:11.5rem; background:#3a3a3a; box-sizing:border-box; }
+.screen .scon .tit{border-bottom:1px solid #444548; line-height:2.5rem; text-align:center; margin:0 1rem}
+.screen .scon dl dt{ margin:0.8rem 1rem 0 2.3rem; line-height:1.5rem}
+.screen .scon dl dd{ line-height:1.3rem; margin-bottom:0.5rem }
+.screen .scon dl dd a{ background:#444548; width:4.3rem; display:inline-block; margin-left:1rem; border-radius:1.5rem; text-align:center; color:#6f6f6f}
+.screen .scon dl dd a.now{background:#6ab400; color:#333}
+.sorter-body{ padding:2rem 1rem 0;}
+.sorter-body .sorter-row{border-bottom:1px solid #383838; padding:1.2rem 0; height:6.2rem; display:block}
+.sorter-item,.move { position:relative;}
+.sorter-item .choose{ position:absolute; top:2rem; left:0; z-index:9}
+.move .pic{position: absolute;top: 0;left: 0;width: 9rem;height: 6.2rem;overflow: hidden;}
+.move .pic img{height: 100%;width: auto;}
+.move .text{position: absolute;top: 0;left: 0;width:100%;height: 6.2rem; padding-left:9.8rem; box-sizing:border-box}
+.move .text .tit{font-size:1rem; line-height:1.5rem; height:1.6rem}
+.move .text .con{ line-height:2rem; height:4.6rem;color:#878787;}
+.move .text .con .left{width:35%;height:4.6rem; overflow:hidden;}
+.move .text .con .left font{font-size:1.2rem}
+.move .text .con .left ul li{margin-bottom:0.8rem !important;  }
+.move .text .con .left ul li span{padding-right:1rem; font-size:0.7rem;}
+.move .text .con .left i{font-style:normal; margin-left:0.5rem; text-decoration:line-through}
+.move .text .con .middle{float:left;width:15%; line-height:2.5rem;font-size:0.7rem;}
+.move .text .con .right{width:50%; text-align:right; position:relative }
+.move .text .con .right a{ display:inline-block; width:3rem; }
+.move .text .con .right img{width:2.2rem}
+.move .text .con .right .roperate{width:13rem; height:3.5rem; position:absolute; top:-0.6rem; right:5.8rem}
+.move .text .con .right .roperate .icon{ background:#6ab400; border-radius:0.3rem; width:12.5rem; height:3.5rem; text-align:center; padding:0 0.5rem; box-sizing:border-box}
+.move .text .con .right .roperate .icon a{width:25%; display:block; float:left; height:3rem; margin-top:0.5rem; line-height:0.8rem; color:#fff; font-size:0.7rem}
+.move .text .con .right .roperate .icon img,.b-batch .bfr img{width:1.4rem;}
+.move .text .con .right .roperate .icon font{ display:block; }
+.move .text .con .right .roperate .arrow{ position:absolute; top:1.2rem; right:0.1rem; width: 0; height: 0; border-left: 0.5rem solid #6ab400;border-bottom: 0.5rem solid transparent;border-top: 0.5rem solid transparent;font-size: 0;line-height: 0;}
+.b-batch{ background-color:rgba(21,21,21,0.95);filter:alpha(opacity=95); -moz-opacity:0.95; -khtml-opacity: 0.95; opacity: 0.95; bottom:0; left:0; z-index:99; position:fixed; height:4rem; width:100%; padding:0 1rem; box-sizing:border-box}
+.b-batch .bfl{width:10%; display:inline-block; line-height:4rem; vertical-align:top}
+.b-batch .bfr{width:80%; display:inline-block; text-align:center}
+.b-batch .bfr a{width:5rem; display:inline-block; padding-top:0.8rem}
+.b-batch .bfr a font{ display:block; font-size:0.7rem}
+
+.pro-layer{ background:#151515; border-radius:0.5rem; width:25rem; height:18rem;  overflow:hidden}
+.pro-layer .pcon{width:100%;height:14rem; text-align:center}
+.pro-layer .pcon ul li{ line-height:2rem; font-size:0.6rem}
+.pro-layer .pcon ul li.top{padding-top:5rem; font-size:1rem}
+.pro-layer .pcon ul li.top img{width:1.3rem; margin-right:0.5rem; vertical-align:middle; margin-top:-0.2rem}
+.pro-layer .pbtn{height:4rem}
+.pro-layer .pbtn a{ background:#262626; line-height:4rem; width:50%; border-right:1px solid #151515; float:left; display:block; box-sizing:border-box; text-align:center; font-size:1rem}
+.pro-layer .pbtn a:last-child{border:0}
+
+.orderdeta .inner .icon-phone{width:0.65rem;}
+.orderdeta .price{}
+.orderdeta .btnBox{position:fixed;right:0;bottom:0;width:20rem;height:4rem;line-height:100%;padding:0.95rem 1rem;background-color:#2d2e32;border-top:0.05rem solid #37383c;box-sizing:border-box;}
+.orderdeta .btnBox .btn{width:8rem;height:2rem;color:#fff;font-size:0.9rem;text-align:center;border:0.05rem solid #7f8081;border-radius:0.3rem;}
+.orderdeta .btnBox .btn.cancel{background-color:#2d2e32;}
+.orderdeta .btnBox .btn.submit{float:right;background-color:#ff5d5d;border-color:#ff5d5d;}=======
